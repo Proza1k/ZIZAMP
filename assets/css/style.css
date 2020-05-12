@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Интро */
 .intro__title{
     margin-top: 100px;
-    margin-bottom: 100px;
     text-align: center;
     font-size: 90px;
     font-weight: 300;
@@ -81,4 +80,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover {
     color: rgb(173, 0, 0);
+}
+
+/* Тело */
+.body__description{
+    margin-top: 200px;
+    height: 500px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.description_text{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
 }
