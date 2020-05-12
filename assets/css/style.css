@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+*,
+*:before 
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    max-height: 34px;
+    margin: 0 auto;
+}
+/* Шапка */
+.header{
+    padding-top: 10px;
+    background-color: #FFF;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__inner{
+    border: none;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    margin-left: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nav__logo{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    color: #111;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+    color: rgb(173, 0, 0);
+}
+
