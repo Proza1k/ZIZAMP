@@ -23,9 +23,19 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 34px;
     margin: 0 auto;
 }
+
+/* Интро */
+.intro__title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 300;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+}
 /* Шапка */
 .header{
-    padding-top: 10px;
     background-color: #FFF;
     width: 100%;
     position: absolute;
@@ -64,7 +74,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: color 0.2s linear;
 }
 
+.icon__search{
+    height: 15px;
+    width: 15px;
+}
+
 .nav__link:hover {
     color: rgb(173, 0, 0);
 }
-
