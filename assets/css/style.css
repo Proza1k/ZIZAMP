@@ -16,10 +16,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-
+    
 .container{
     width: 100%;
-    max-width: 900px;
+    max-width: 95%;
     max-height: 34px;
     margin: 0 auto;
 }
@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Orbitron', sans-serif;
 }
+
 /* Шапка */
 .header{
     background-color: #FFF;
@@ -44,10 +45,13 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1000;
 }
 .header__inner{
+    box-shadow: 0 0 3px 1px;
+    border-radius: 35px;
     border: none;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 0.5px solid gray;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-top: 2px solid gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,11 +88,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Тело */
 .body__description{
+    box-shadow: 0 0 3px 1px;
+    border-radius: 35px;
     margin-top: 200px;
     height: 500px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 0.5px solid gray;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-top: 2px solid gray;
 }
 
 .description_text{
